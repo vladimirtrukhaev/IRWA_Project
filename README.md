@@ -1,1 +1,2 @@
-
+This is the first part of the Final Project for the Information Retrieval & Web Analysis course. To execute it you just have to download the folder in this branch that contains the text file as well as the Jupyter Notebook file and simply run the Jupyter Notebook (this is taking into account you have previously intalled the Regex, JSON and NLTK libraries.
+Inside the Jupyter Notebook file you have each function explained in detail.
