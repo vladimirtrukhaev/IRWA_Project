@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block page_title %}{{ page_title }}{% endblock %}
+{% block content %}
+<p>The current date and time is: {{ date_time }}</p>
+<p>The user <!-- from {{ city }}, {{ country }} --> that has IP address {{ ip_add }} is using {{ browser }}</p>
+    Quick sample...
+    <hr>
+    {% for doc in clicks_data %}
+        <div class="pb-3">
+            <div class="">
+                {{ doc.title }}
+				{{ clicks }}
+            </div>
+            <div class="">
+            </div>
+            <div class="">
+                {{ doc.doc_date }} — {{ doc.description }}
+            </div>
+
+        </div>
+
+    {% endfor %}
+{% endblock %}
+
+
+</body>
+</html>
